@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import Fade from "react-reveal/Fade";
+import Slide from "react-reveal/Slide";
 
 class TimeUntil extends Component {
   state = {};
 
   render() {
     return (
-      <Fade left>
+      <Slide left delay={1000}>
         <div className="countdown_wrapper">
           <div className="countdown_top">Event Starts In</div>
           <div className="countdown_bottom">
@@ -28,7 +28,7 @@ class TimeUntil extends Component {
             </div>
           </div>
         </div>
-      </Fade>
+      </Slide>
     );
   }
 }
