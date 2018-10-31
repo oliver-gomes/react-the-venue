@@ -3,6 +3,7 @@ import "./resources/styles.css";
 import Header from "./components/header-footer/Header";
 import Featured from "./components/featured/Featured";
 import VenueInfo from "./components/venue-info/VenueInfo";
+import Highlights from "./components/highlights/Highlights";
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
         <Header />
         <Featured />
         <VenueInfo />
+        <Highlights />
       </div>
     );
   }
