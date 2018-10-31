@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./resources/styles.css";
 import Header from "./components/header-footer/Header";
 import Featured from "./components/featured/Featured";
-//import SideDrawer from "./components/header-footer/SideDrawer";
+import VenueInfo from "./components/venue-info/VenueInfo";
 
 class App extends Component {
   render() {
@@ -13,6 +13,7 @@ class App extends Component {
       >
         <Header />
         <Featured />
+        <VenueInfo />
       </div>
     );
   }
